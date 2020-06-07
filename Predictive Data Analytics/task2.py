@@ -21,7 +21,7 @@ Task 2: Read the data from wineNormalized.csv file
 import os
 os.getcwd()
 ### change work directory to current 
-os.chdir('/Users/lisun/GSU')
+os.chdir('/Users/lisun/Data Science')
 
 ### read the data from cancerNormalized.csv file to the Panda's data frame
 import pandas as pd
