@@ -7,13 +7,12 @@ Created on Fri Oct 25 17:17:23 2019
 """
 
 """
-Task 2: Read the data from your wineNormalized.csv file
- to the Panda’s data frame and split your instances into training (2/3) 
- and testing (1/3) data sets (you will need to perform stratified 
- holdout sampling, as I want you to make sure you have an even‐out 
- number of class labels in each of these two sets). Save your training 
- and testing data sets as *.csv files, as you will need them to complete 
- the remaining tasks. In this task you will be working with Decision Trees,
+Task 2: Read the data from wineNormalized.csv file
+ to the Panda’s data frame and split the instances into training (2/3) 
+ and testing (1/3) data sets (need to perform stratified 
+ holdout sampling, make sure having an even‐out 
+ number of class labels in each of these two sets). Save training 
+ and testing data sets as *.csv files. This task is working with Decision Trees,
  so perform experiments that involve trees with different numbers of l
  evels, and different homogeneity measures (e.g. Gini index, entropy).
 """
