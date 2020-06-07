@@ -14,7 +14,7 @@ import os
 
 os.getcwd()
 ### change work directory to current 
-os.chdir('/Users/lisun/GSU/2019 fall/Fundamental of Data Science/2019 Fall/HW2')
+os.chdir('/Users/lisun/GSU')
 
 ### import the file 
 df_Others= pd.read_csv('Others.csv')
