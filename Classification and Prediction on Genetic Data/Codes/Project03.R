@@ -9,7 +9,7 @@ options(digits = 4)
 options(warn = -1)
 
 
-setwd("~/GSU/2020 Spring/Machine Learning/Final Project/Project_Li Sun/Project 3")
+setwd("~/Machine Learning/Project 3")
 MultLabelTrainData=read.table('MultLabelTrainData.txt')
 MultLabelTestData=read.table('MultLabelTestData.txt')
 MultLabelTrainLabel=read.table('MultLabelTrainLabel.txt')
