@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np
 
 ### import the file and save it to a panda's data frame
-df = pd.read_csv('~lisun/GSU/2019 fall/Fundamental of Data Science/2019 Fall/HW2/dataPreP.csv')
+df = pd.read_csv('dataPreP.csv')
 df.dtypes
 
 ### identify attributes
@@ -21,9 +21,9 @@ Others = df.select_dtypes(include = ['object'])
 
 
 ### write to the files
-path='~lisun/GSU/2019 fall/Fundamental of Data Science/2019 Fall/HW2/Quantitative.csv'
+path='Quantitative.csv'
 Quantitative.to_csv(path,index = False)
-path='~lisun/GSU/2019 fall/Fundamental of Data Science/2019 Fall/HW2/Others.csv'
+path='Others.csv'
 Others.to_csv(path, index = False)
 
 
