@@ -20,7 +20,7 @@
 #### There are 11 classes in this dataset.
 
 
-setwd("~/GSU/2020 Spring/Machine Learning/Final Project/Project_Li Sun/Project 1")
+setwd("~/Machine Learning/Project 1")
 getwd()
 
 # Process each Dataset
