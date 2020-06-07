@@ -14,7 +14,7 @@ import os
 
 os.getcwd()
 ### change work directory to current 
-os.chdir('/Users/lisun/GSU')
+os.chdir('/Users/lisun/Data Science')
 
 ### import the file 
 df_Quan = pd.read_csv('Quantitative.csv')
