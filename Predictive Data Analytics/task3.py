@@ -17,7 +17,7 @@ k values, and different neighbors‐weighting scenarios.
 import os
 os.getcwd()
 ### change work directory to current 
-os.chdir('/Users/lisun/GSU')
+os.chdir('/Users/lisun/Data Science')
 
 ### read the training and testing data sets
 import pandas as pd
