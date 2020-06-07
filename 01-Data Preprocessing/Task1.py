@@ -8,6 +8,11 @@ Created on Tue Sep 24 20:14:30 2019
 
 import pandas as pd
 import numpy as np
+import os
+
+os.getcwd()
+### change work directory to current 
+os.chdir('/Users/lisun/GSU/')
 
 ### import the file and save it to a panda's data frame
 df = pd.read_csv('dataPreP.csv')
