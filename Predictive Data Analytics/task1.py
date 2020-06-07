@@ -19,7 +19,7 @@ import os
 
 os.getcwd()
 ### change work directory to current 
-os.chdir('/Users/lisun/GSU')
+os.chdir('/Users/lisun/Data Science')
 
 
 ### import the file and save it to a panda's data frame
