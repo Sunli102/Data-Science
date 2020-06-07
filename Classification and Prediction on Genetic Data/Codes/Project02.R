@@ -2,7 +2,7 @@
 #Dataset 2 contains 758 genes with 50 samples.
 #Dataset 3 contains 273 viruses with 79 samples. There are only 3815 observed values.
 
-setwd("~/GSU/2020 Spring/Machine Learning/Final Project/Project_Li Sun/Project 2")
+setwd("~/Machine Learning/Project 2")
 
 MissingData1=read.table('MissingData/MissingData1.txt',na.strings ='1.00000000000000e+99')
 sum(is.na(MissingData1))   # 118
