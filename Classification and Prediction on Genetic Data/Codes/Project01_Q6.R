@@ -4,7 +4,7 @@
 # install.packages('packrat')
 library('packrat')
 
-setwd("~/GSU/2020 Spring/Machine Learning/Final Project/Project_Li Sun/Project 1")
+setwd("~/Machine Learning/Project 1")
 getwd()
 
 TrainData.06=read.table('Train dataset/TrainData6.txt', na.strings ='1.00000000000000e+99')
