@@ -17,7 +17,7 @@ them. Try to (1) generate/derive some new descriptive features,
 import os
 os.getcwd()
 ### change work directory to current 
-os.chdir('/Users/lisun/GSU')
+os.chdir('/Users/lisun/Data Science')
 
 import pandas as pd
 X_train = pd.read_csv('X_train.csv')
