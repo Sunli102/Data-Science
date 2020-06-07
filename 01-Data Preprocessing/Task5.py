@@ -13,7 +13,7 @@ import seaborn as sns
 
 
 os.getcwd()
-os.chdir('/Users/lisun/GSU/2019 fall/Fundamental of Data Science/2019 Fall/HW2')
+os.chdir('/Users/lisun/GSU')
 
 df4 = pd.read_csv('Quantitative.csv')
 df_Quan = df4._get_numeric_data()
