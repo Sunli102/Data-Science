@@ -8,18 +8,16 @@ Created on Sun Oct 27 12:01:59 2019
 
 """
 Task 5: Now, it is time to have some free play!􏰀Come up with some ideas to 
-improve your machine learning results achieved in the tasks above, and test 
+improve the machine learning results achieved in the tasks above, and test 
 them. Try to (1) generate/derive some new descriptive features, 
 (2) take advantage of feature ranking(s), or (3) other types of classifiers 
 (feel free to use even the ones we did not discuss in the class), or numerosity
- reduction methods (e.g. binning, clustering) to further improve your results. 
- Make this a comparable/fair investigation thought, stick to the same training 
- and testing data sets, and be consistent with your evaluation methodology.
+ reduction methods (e.g. binning, clustering) to further improve the results. 
 """
 import os
 os.getcwd()
 ### change work directory to current 
-os.chdir('/Users/lisun/GSU/2019 fall/Fundamental of Data Science/2019 Fall/HW3')
+os.chdir('/Users/lisun/GSU')
 
 import pandas as pd
 X_train = pd.read_csv('X_train.csv')
@@ -452,20 +450,3 @@ plt.title('Receiver operating characteristic')
 plt.legend(loc="lower right")
 plt.savefig('Log_ROC')
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
