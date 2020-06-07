@@ -7,7 +7,7 @@ Created on Sat Oct 26 21:07:13 2019
 """
 """ 
 Task 4: using exactly the same data sets (i.e. your training and testing sets) 
-as in the last two tasks, implement Random Forest to rank all of your 
+as in the last two tasks, implement Random Forest to rank all of the 
 descriptive features based on their importance.
 """
  
