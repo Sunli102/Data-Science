@@ -22,7 +22,7 @@ Task 2: Read the data from your wineNormalized.csv file
 import os
 os.getcwd()
 ### change work directory to current 
-os.chdir('/Users/lisun/GSU/2019 fall/Fundamental of Data Science/2019 Fall/HW3')
+os.chdir('/Users/lisun/GSU')
 
 ### read the data from cancerNormalized.csv file to the Panda's data frame
 import pandas as pd
@@ -130,15 +130,3 @@ export_graphviz(dctGini, out_file=dot_data,
 graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
 graph.write_png('TreeGini1.png')
 Image(graph.create_png())
-
-
-
-
-
-
-
-
-
-
-
-
